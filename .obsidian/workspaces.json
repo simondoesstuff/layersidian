@@ -10,7 +10,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "37591a60cf43caf0",
+                "id": "0e6e56ab10922494",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -96,7 +96,8 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "collapseAll": false,
+                    "file": "README.md",
+                    "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
                     "showSearch": false,
@@ -105,7 +106,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks"
+                  "title": "Backlinks for README"
                 }
               },
               {
@@ -163,8 +164,8 @@
           "templater-obsidian:Templater": false
         }
       },
-      "active": "37591a60cf43caf0",
-      "mtime": "2024-11-29T01:06:25-07:00"
+      "active": "0e6e56ab10922494",
+      "mtime": "2024-11-29T02:02:37-07:00"
     }
   },
   "active": "default"
