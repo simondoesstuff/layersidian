@@ -15,12 +15,15 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "brawl stars",
-      "template": "templates/brawl stars template.md"
-    },
-    {
       "folder": "/",
       "template": "templates/newnote.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
