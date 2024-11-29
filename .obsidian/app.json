@@ -148,7 +148,7 @@
   ],
   "showUnsupportedFiles": true,
   "userIgnoreFilters": [],
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "vimMode": true,
   "trashOption": "local",
   "propertiesInDocument": "visible",
