@@ -1,0 +1,7 @@
+{
+  "pinned": [
+    "obsidian-git:push",
+    "obsidian-git:pull",
+    "workspaces:load"
+  ]
+}

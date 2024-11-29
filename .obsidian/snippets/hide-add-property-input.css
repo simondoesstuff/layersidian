@@ -1,0 +1,17 @@
+/* remove the add property button */
+.metadata-add-button  {
+  display: none;
+}
+
+/* reduce space properties consume */
+.metadata-container {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Hide the "properties collapsable thing" */
+.metadata-properties-heading {
+  display: none;
+}

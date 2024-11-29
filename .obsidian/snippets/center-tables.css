@@ -1,0 +1,10 @@
+/* Center tables on the page */
+.table-editor {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}

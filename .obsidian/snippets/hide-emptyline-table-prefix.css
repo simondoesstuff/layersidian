@@ -1,0 +1,3 @@
+.cm-line:has(> br:only-child):has(+ :is(.cm-table-widget)):not(.cm-active) {
+	height: 0;
+}
