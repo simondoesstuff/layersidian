@@ -14,7 +14,6 @@ PyTorch has utilities for GPU management and simple utilities for basic distribu
 	- Possibly avoidable? I have a single source of truth input file. This needs to be batched and divided into the workers ideally without overlap. The outputs then must be aggregated in original order.
 - 32-bit can't index some very large tensors despite being able to (easily) hold the tensor in memory
 - Long computation often needs safe intermediate cancellation (& continuation)
+- Support for mig-partitions
 - Python (sub 3.13) lacks competent parallelization tooling
 - Fiji runs old linux and security makes some devOps extremely cumbersome (often)
-# Next
-**Major** IO bottleneck? CPU always active during inference. GPU spikes. GPU memory utilization good. It appears to finish writing to a mem-mapped file because the size stabilizes. It then hangs (for potentially minutes at 70GB GPU mem) before ultimately aggregating to the final file. While hanging, there is no obvious change in (any) file sizes. After, final aggregation happens on the root process almost instantly. At least 90% of compute time is caught up in the bottleneck.
