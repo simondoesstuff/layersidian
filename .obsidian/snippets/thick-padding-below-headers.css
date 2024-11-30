@@ -1,0 +1,7 @@
+.HyperMD-header {
+  padding-bottom: var(--p-spacing) !important;
+}
+
+.markdown-source-view:not(.is-live-preview) {
+  --p-spacing: 1rem !important;
+}

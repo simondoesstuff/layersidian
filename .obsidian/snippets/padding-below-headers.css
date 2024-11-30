@@ -1,5 +1,0 @@
-body.h2-underline h2, body.h2-underline .HyperMD-header.HyperMD-header-2.cm-line {
-    border-bottom: 0px solid var(--background-modifier-border);
-    width: 100%;
-    padding-bottom: 2px;
-}
