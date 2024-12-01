@@ -13,6 +13,7 @@ PyTorch has utilities for GPU management and simple utilities for basic distribu
 - Custom distributed sampler
 	- Possibly avoidable? I have a single source of truth input file. This needs to be batched and divided into the workers ideally without overlap. The outputs then must be aggregated in original order.
 - 32-bit can't index some very large tensors despite being able to (easily) hold the tensor in memory
+- GPU-CPU hybrid compute requires nuance regarding the distributed backend. Or... no networked backend.
 - Long computation often needs safe intermediate cancellation (& continuation)
 - Support for mig-partitions
 - Python (sub 3.13) lacks competent parallelization tooling
