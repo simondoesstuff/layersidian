@@ -2,7 +2,7 @@
 PyTorch has utilities for GPU management and simple utilities for basic distributed setups, but it is not sufficient out of the box for very large scale operations.
 - Multiple batches across multiple GPUs is difficult to do efficiently with DDP. Custom parallelization necessary.
 	- Particularly if data pre-processing can also be parallelized -- it can be easily implemented seamlessly.
-	- Parallelization without frequent locks requires minding
+	- Parallelization without frequent locks (or `dist.barrier()`s) requires minding the problem-specific constraints
 - Large jobs require buffered IO; best with memmap.
 	- Also there's nuance in moving data between the root process and the workers. Must be picklable. If there's one-time initialization (such as with a fasta database), it may be optimal to redundantly re-initialize on each worker.
 	- Keep `ulimit`s in mind.
