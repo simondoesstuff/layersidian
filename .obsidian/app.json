@@ -151,6 +151,5 @@
   "showInlineTitle": true,
   "vimMode": true,
   "trashOption": "local",
-  "propertiesInDocument": "visible",
-  "showRibbon": false
+  "propertiesInDocument": "visible"
 }
