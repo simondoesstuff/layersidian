@@ -1,15 +1,15 @@
 [
-  "obsidian-vimrc-support",
-  "settings-search",
-  "tag-wrangler",
-  "omnisearch",
-  "obsidian-style-settings",
+  "obsidian-linter",
   "obsidian-latex-suite",
   "obsidian-git",
-  "quickadd",
-  "templater-obsidian",
-  "obsidian-query-control",
+  "dataview",
+  "omnisearch",
   "obsidian-paste-image-rename",
-  "obsidian-linter",
-  "dataview"
+  "quickadd",
+  "settings-search",
+  "obsidian-style-settings",
+  "tag-wrangler",
+  "templater-obsidian",
+  "obsidian-vimrc-support",
+  "frontmatter-modified-date"
 ]
