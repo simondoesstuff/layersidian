@@ -28,6 +28,7 @@ that operation would allow us to compare: *bed file to bed file* or more importa
 1) Consider the genome as broken into fixed-size tiles. Then for each interval in the database of bed files, find the tile that contains their start position. (Probably with an O(1) lookup based on rounding the start coordinate)
 2) Iterate until the end-tile (that contains the end coordinate), adding the interval to all tiles en route. **This means intervals can be repeatedly stored which increases index size.**
 3) All intervals within the tile must be sorted based on start coordinate.
+
 **Query**
 - We've already got a finished index of tiles that each contain a set of "IGD data elements".
 <u>IGD data elements:</u>
