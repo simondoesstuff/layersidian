@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-16T21:21:48-06:00
+modified: 2025-05-16T21:22:22-06:00
 ---
 A follow-up to giggle which is based on B+ trees, but their tool is based on linear binning.
 
